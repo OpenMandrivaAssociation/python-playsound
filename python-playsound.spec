@@ -9,6 +9,7 @@ License:        MIT
 URL:            https://github.com/TaylorSMarks/playsound
 Source0:        https://pypi.python.org/packages/source/p/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
 BuildRequires:  pkgconfig(python)
+BuildRequires:  python3dist(setuptools)
 
 Requires: python
 Requires: gstreamer1.0-plugins-base
