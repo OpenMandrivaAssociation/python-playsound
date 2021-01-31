@@ -1,3 +1,4 @@
+%define debug_package %{nil}
 %global pypi_name playsound
 
 Name:           python-%{pypi_name}
