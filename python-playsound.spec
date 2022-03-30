@@ -2,7 +2,7 @@
 %global pypi_name playsound
 
 Name:           python-%{pypi_name}
-Version:        1.2.2
+Version:        1.3.0
 Release:        1
 Group:          Development/Python
 Summary:        Pure Python, cross platform, single function module with no dependencies for playing sounds.
@@ -36,4 +36,3 @@ rm -rf %{pypi_name}.egg-info
 %{python_sitelib}/playsound-*-py*.*.egg-info/PKG-INFO
 %{python_sitelib}/playsound-*-py*.*.egg-info
 %{python_sitelib}/playsound.py
-%{python_sitelib}/__pycache__/playsound.cpython-*
