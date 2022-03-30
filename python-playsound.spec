@@ -33,6 +33,5 @@ rm -rf %{pypi_name}.egg-info
 %py_install
 
 %files
-%{python_sitelib}/playsound-*-py*.*.egg-info/PKG-INFO
 %{python_sitelib}/playsound-*-py*.*.egg-info
 %{python_sitelib}/playsound.py
