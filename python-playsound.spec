@@ -3,7 +3,7 @@
 
 Name:           python-%{pypi_name}
 Version:        1.3.0
-Release:        1
+Release:        2
 Group:          Development/Python
 Summary:        Pure Python, cross platform, single function module with no dependencies for playing sounds.
 License:        MIT
